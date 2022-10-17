@@ -1,0 +1,12 @@
+//功能：输出“Hello world！Hello C++ !”
+#include<iostream>
+using namespace std;
+int main()
+{
+
+cout <<"Hello world！Hello C++ !"<<endl;
+
+system("pause");
+return 0;
+
+}
