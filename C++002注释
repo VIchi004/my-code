@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+//   1.单行注释
+/**/ 2.多行注释
+{
+cout << "Hello world"<<endl;
+//1行代码含义就是在屏幕中输出Hello world
+
+system("pause")
+return 0;
+}
