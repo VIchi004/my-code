@@ -1,0 +1,14 @@
+//关键字（标识符）是一种有特殊用途的词法符号,是C++语言预定义的保留字，不能再用作其他用途。
+//定义变量或常量时不要用关键字！！
+//例如 const  duble  int  long  break  using  unsigned等等
+#include<iostream>
+using namespace std;
+int main()
+{
+//创建变量：    数据类型 变量名 = 初始值；
+// int int = 10;  是错的！第二个int是关键字，不能用作变量名,否则会产生歧义！
+
+
+return 0;
+
+}
