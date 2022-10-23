@@ -1,0 +1,26 @@
+//字符串型用于表示一串字符
+//两种风格
+//C语言风格
+//语法 char 变量名[]="字符串值"
+//示例
+#include<stdio.h>
+int main()
+{
+char str1[]="Hello world";
+cout <<str1<<endl;
+
+return 0;
+}
+//C++风格字符串
+//语法 char 变量名="字符串值"       【注意：是双引号！！】
+#include<iostream>
+using namespace std;
+int main()
+{
+char str2="Hello C++"；
+cout<<str2<<endl;
+
+return 0;
+}
+
+
