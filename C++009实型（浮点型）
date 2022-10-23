@@ -1,0 +1,20 @@
+//实型用于表示小数
+//实型分为单精度实型（float）和双精度实型（double）
+//区别:   占用字节    有效数位
+//float   4字节        7位
+//double  8字节       15~16位
+#include<iostream>
+using namespace std;
+int main()
+{
+float a=1.3242;
+
+double b=1.4424242;
+//科学计数法
+float c=3e2; //3*10^2
+float d=3e-2;//3*0.1
+cout <<a<<b<<endl;
+
+return 0;
+
+}
