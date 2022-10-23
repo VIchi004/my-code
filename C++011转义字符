@@ -1,0 +1,20 @@
+//转义字符用于表示一些不能显示出来的ASCII字符
+//常用的有：换行  水平制表  反斜杠
+//          \n      \t      \\
+#include<iostream>
+using namespace std;
+int main()
+{
+//换行符     \n
+cout<<"Hello world\n";
+//水平制表符 \t
+cout<<"aa\thelloworld"<<endl;
+cout<<"aaaa\thelloworld"<<endl;
+cout<<"aaaaaa\thelloworld"<<endl;
+
+//反斜杠     \\
+cout<<"打出一个反斜杠"<<"\\"<<endl;
+
+return 0;
+
+}
