@@ -11,9 +11,9 @@ using namespace std;
 int main()
 {
 char ch='a';
-cout <<ch <<endl;
-cout <<sizeof(char)<<endl;
-
+cout <<ch <<endl;         //输出字符
+cout <<sizeof(char)<<endl;//查看所占空间
+cout <<(int)ch<<endl;     //查看字符a对应的ASCII值
 //char b="abc" 错误，不可以用双引号
 //char b='abc' 错误，单引号内只能引用一个字符
 return 0；
