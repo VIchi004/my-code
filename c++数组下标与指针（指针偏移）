@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[5] = { 1,2,3,4,5 };
+	int x = a[2];
+	// 使用下标引用访问数组中的第三个元素
+	cout << "a[2] = " << x << endl;
+	int y = *(a + 2);
+	// 使用指针运算访问数组中的第三个元素
+	cout << "*(a + 2) = " << y << endl;//a是一个指向数组首元素的指针，而(a+2)就是指向数组第三个元素的指针
+	cout << "*a =" << *a << " " << "a[0] = " << a[0] << endl;
+	return 0;
+}
